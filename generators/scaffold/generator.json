@@ -24,6 +24,8 @@
 
     {"name": "collection-view", "params": "{{pluralName}}"},
     {"name": "style", "params": "{{pluralName}}"},
-    {"name": "template", "params": "{{pluralName}}"}
+    {"name": "template", "params": "{{pluralName}}"},
+
+    {"name": "controller-test", "params": "{{name}}"}
   ]
 }
