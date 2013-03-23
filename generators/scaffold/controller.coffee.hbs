@@ -1,8 +1,8 @@
 Controller = require 'controllers/base/controller'
 {{#camelize}}{{name}}{{/camelize}} = require 'models/{{name}}'
-{{#camelize}}{{name}}{{/camelize}}PageView = require 'views/{{name}}-page-view'
-{{#camelize}}{{pluralName}}{{/camelize}}Collection = require 'models/{{pluralName}}-collection'
-{{#camelize}}{{pluralName}}{{/camelize}}CollectionView = require 'views/{{pluralName}}-collection-view'
+{{#camelize}}{{name}}{{/camelize}}PageView = require 'views/{{name}}-page'
+{{#camelize}}{{pluralName}}{{/camelize}}Collection = require 'models/{{pluralName}}'
+{{#camelize}}{{pluralName}}{{/camelize}}CollectionView = require 'views/{{pluralName}}'
 
 module.exports = class {{#camelize}}{{pluralName}}{{/camelize}}Controller extends Controller
   historyURL: '{{name}}'

@@ -1,5 +1,5 @@
 CollectionView = require 'views/base/collection-view'
-{{#camelize}}{{name}}{{/camelize}} = require 'views/{{name}}-view'
+{{#camelize}}{{name}}{{/camelize}} = require 'views/{{name}}-item'
 
 module.exports = class {{#camelize}}{{pluralName}}{{/camelize}}View extends CollectionView
   itemView: {{#camelize}}{{name}}{{/camelize}}
